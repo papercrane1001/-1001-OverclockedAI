@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--Cabinets-->
+
+    <ResearchProjectDef>
+        <defName>OverclockedAI</defName>
+        <label>overclocked AI</label>
+        <tab>MoreLinkables</tab>
+        <description>Build an AI-assisted tool cabinet that can be overclocked with extra power.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+	
+</Defs>
