@@ -44,9 +44,15 @@
             <li>BuildingsMisc</li>
         </thingCategories>
         <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>250</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
             <li Class="CompProperties_Facility">
                 <statOffsets>
-                    <WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
+                    <WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
                 </statOffsets>
                 <maxSimultaneous>1</maxSimultaneous>
             </li>
