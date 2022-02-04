@@ -12,6 +12,24 @@ namespace _1001_OverclockedAI
     public class CompProperties_AdjustableFacility : CompProperties_Facility
     {
         public int step = 1;
+        private float stepX { get { return 40 + 2 * step; } }
+        public float powerReq()
+        {
+            return (float)Math.Exp(.09 * stepX);
+        }
+        public float efficiency()
+        {
+            return (float)(25 * Math.Pow(1.1, step - 1));
+        }
+
+        public float energyPerSecond
+        {
+            get
+            {
+                return step * 12f;
+            }
+        }
+
 
         public CompProperties_AdjustableFacility()
         {
