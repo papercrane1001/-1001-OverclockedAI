@@ -56,6 +56,8 @@ namespace _1001_OverclockedAI
             }            
             
         }
+
+        //public override 
     }
 
     //public class CompProperties_

@@ -50,7 +50,7 @@
                 <basePowerConsumption>250</basePowerConsumption>
             </li>
             <li Class="CompProperties_Flickable" />
-            <li Class="CompProperties_Facility">
+            <li Class="_1001_OverclockedAI.CompProperties_AdjustableFacility">
                 <statOffsets>
                     <WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
                 </statOffsets>
